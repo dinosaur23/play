@@ -1,0 +1,8 @@
+print ('<h1 style="font-size:40pt; color:black">felix numbers</h1>', end='')
+import random
+n = random.randint(0,9999)
+print(n)
+import random
+f = random.randint(10000,99999)
+print(f)
+print(n + f)
