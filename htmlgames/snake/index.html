@@ -1,9 +1,13 @@
-<title>htmlsnake</title>
-<!DOCTYPE html>
+
 <html>
 <head>
+  <title>htmlsnake</title>
+<!DOCTYPE html>
   <meta charset="UTF-8">
   <style>
+    .title {
+      align-items: center;
+    }
   html, body {
     height: 100%;
     margin: 0;
@@ -21,7 +25,9 @@
   </style>
 </head>
 <body>
-  <center><h1>snake</h1></center>
+  <div class = "title">
+    <h1>snake</h1>
+  </div>
 <canvas width="400" height="400" id="game"></canvas>
 <script>
 var canvas = document.getElementById('game');
